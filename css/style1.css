@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+body {
+	background-color: #b8c6db;
+  	background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7f7 100%);
+	font-family: 'Open Sans', sans-serif;
+}
+
+.logo img {
+    width: 100px;
+    cursor: pointer;
+    /* transition: all 1s; */
+    position: relative;
+    top: 50px;
+    left: 50px;
+	mix-blend-mode: multiply;
+}
+
+
+a, button {
+	float: left;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	font-size: 15px;
+	color: #2E3D49;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+}
+.head-container {
+	margin-top: 150px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+}
+.quote {
+	width: 600px;
+	transform: translateY(-50px);
+}
+.quote h5 {
+	font-size: 15px;
+	margin-top: 20px;
+	color: #0009;
+	line-height: 20px;
+}
+.quote p {
+	font-size: 50px;
+	color: #2e2e2e;
+}
+
+.quote .play {
+	margin-top: 20px;
+	display: flex;
+	align-items: center;
+}
+.quote .play img {
+	width: 45px;
+	cursor: pointer;
+	filter: drop-shadow(0 0 10px #0002);
+}
+.quote .play span a{
+	margin-left: 10px;
+	font-size: 20px;
+	font-weight: 900;
+	color: rgba(0, 0, 0, 0.8);
+	cursor: pointer;
+}
+.svg-image img{
+	width: 500px;
+	filter: drop-shadow(0 20px 10px rgba(0,0,0,0.2));
+}
